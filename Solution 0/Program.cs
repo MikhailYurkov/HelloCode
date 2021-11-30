@@ -1,6 +1,7 @@
 ﻿//0. Вывести квадрат числа
+Console.WriteLine ("Задайте число для вычисления квадрата данного числа: ");
 
-int numberA = 44;
+int numberA = int.Parse(Console.ReadLine());
+int result = numberA * numberA;
 
-Console.WriteLine(numberA*numberA);
-
+Console.WriteLine("Квадрат числа"+" "+ numberA +" "+ "равен" +" " + result);

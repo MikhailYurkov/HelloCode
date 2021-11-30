@@ -1,9 +1,17 @@
-﻿// 1. По двум заданным числам проверять является ли первое квадратом второго
-int n =
-int i = 
-int is_square(int n)
+﻿// 1. По двум заданным числам проверить является ли первое квадратом второго
+Console.WriteLine ("Задайте первое число : ");
+
+int numberA = int.Parse(Console.ReadLine());
+
+Console.WriteLine ("Задайте второе число : ");
+
+int numberB = int.Parse(Console.ReadLine());
+
+if (numberA == numberB * numberB)
 {
-    for(int i = 1; n > 0; i += 2) n -= i;
-    return n;
+Console.Write(numberA + " является квадратом " + numberB);
 }
-Console.WriteLine (is_square);
+else
+{
+Console.Write (numberA + " не является квадратом " + numberB);
+}
