@@ -2,7 +2,7 @@
 
 //int a = 11;
 //int b = 14;
-Console.Write ("введите число a: ");
+Console.Write("введите число a: ");
 
 int a = int.Parse(Console.ReadLine());
 
@@ -13,15 +13,15 @@ int b = int.Parse(Console.ReadLine());
 int c = 0;
 if (a > b)
 {
-    c=b*a;
+    c = b * a;
 }
-if (c==a)
+if (c == a)
 {
-    Console.WriteLine ("Первое является квадратом второго");
+    Console.WriteLine("Первое является квадратом второго");
 }
-else if (a<b)
+else if (a < b)
 {
-    c=a*a;
+    c = a * a;
 }
-if (c==b)
-Console.WriteLine ("Не является квадратом второго");
+if (c == b)
+    Console.WriteLine("Не является квадратом второго");

@@ -5,4 +5,4 @@ int b = a % 10;
 
 int c = a / 100;
 
-Console.WriteLine ( c *10+b);
+Console.WriteLine(c * 10 + b);
