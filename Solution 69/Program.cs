@@ -7,7 +7,7 @@ if(a < b)
    Console.WriteLine(""+ a);
     (a<b) Number(a+1, b);
 }
-else ;
+else 
 {
         Console.WriteLine("" + b);
     (a < b) Number(a, b - 1);
